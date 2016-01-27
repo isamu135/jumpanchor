@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data targets</title>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" title="no title" charset="utf-8"/>
+  </head>
+  <body>
+    <header>
+      <h1>This is a fixed header</h1>
+      <nav>
+        <a href="index.html">main</a>
+        <a href="anime.html">anime</a>
+       </nav>
+    </header>
+    
+    <article>
+      <section>
+        <h3>Jump to section without JumpAnchors</h3>
+        <a class="btn" href="anime.html#onepiece">Jump to One Piece</a>
+        <a class="btn" href="anime.html#gundam">Jump to Gundam</a>
+        <a class="btn" href="anime.html#dbz">Jump to Dragon Ball Z</a>
+
+        <h3>Jump to section with JumpAnchors</h3>
+        <a class="btn" href="anime.html" data-target="onepiece">Jump to One Piece</a>
+        <a class="btn" href="anime.html" data-target="gundam">Jump to Gundam</a>
+        <a class="btn" href="anime.html" data-target="dbz">Jump to Dragon Ball Z</a>
+
+
+      </section>
+    </article>
+    
+    
+    <script src="js/main.js" type="text/javascript"></script>
+
+  </body>
+</html>
